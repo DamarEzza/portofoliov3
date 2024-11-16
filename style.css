@@ -1,0 +1,136 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url("white.jpg");
+    color: #000000;
+}
+
+/* Header styles */
+header {
+    background: url("jaringan.jpg");
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About section styles */
+#about {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    margin-right: 1rem;
+}
+
+.project-info {
+    max-width: 600px;
+}
+
+.project-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-info a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contact section styles */
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#contact ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: url("jaringan.jpg");
+    color: #fff;
+}
